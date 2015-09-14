@@ -40,8 +40,8 @@ h1{
  #top{
      border-style:solid;
      border-color:black;
-     background:orange;
      padding:auto;
+     background:orange;
      background:linear-gradient( 45deg,white,orange,orange,black);
  }
  
@@ -69,6 +69,7 @@ footer{
     background: orange;
     border-top: black;
     border-style: solid;
+    background:orange;
     background:linear-gradient( 45deg,black,orange,orange,white);
 
 }
