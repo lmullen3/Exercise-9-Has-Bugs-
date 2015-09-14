@@ -1,21 +1,57 @@
-main{
-    font-family: sans-serif, ariel;
+html{
+    background:url(../images/bats.gif);  
+    background-repeat:repeat; 
+
 }
+
+body{
+     font-family: sans-serif, ariel;
+     width:800px;
+     background:white;
+     border-style:solid;
+     margin-left: auto;
+     margin-right:auto;
+     box-shadow: 6px 6px.08em gray;
+
+}
+
+
+#text{
+    padding:12px;
+}
+
 h1{
     font-size: 30pt;
-    color:orange;
-    font-style:italic;
-    text-shadow: 3px 3px 1px #888888;
+    color:black;
     text-indent: 60px;
+    margin:0px;
+    padding-bottom: 6px;
+    padding-top: 16px;
  }
+ 
  h3{
-     text-indent:60px;
+     padding-left:170px;
+     line-height:-20px;
+     margin:0px;
+     padding-top: 6px;
+     padding-bottom: 24px;
  }
+
+ #top{
+     border-style:solid;
+     border-color:black;
+     background:orange;
+     padding:auto;
+     background:linear-gradient( 45deg,white,orange,orange,black);
+ }
+ 
 #bigLetter::first-letter{
     font-size: 46pt;
 }
 img{
     float : left;
+    padding-top: 20px;
+    padding-left:16px;
 }
 a{
    color:orange;
@@ -29,4 +65,10 @@ li{
 footer{
     font-size:16px;
     text-align:center;
+    padding: 12px;
+    background: orange;
+    border-top: black;
+    border-style: solid;
+    background:linear-gradient( 45deg,white,orange,orange,black);
+
 }
