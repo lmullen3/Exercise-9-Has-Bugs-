@@ -1,89 +1,109 @@
 html{
     background:url(../images/bats.gif);  
     background-repeat:repeat; 
-
 }
-#list{
-    float:left;
-    padding-bottom:450px;
-    padding-left:7px;
-    padding-right:7px;
 
-    
-}
 body{
      font-family: sans-serif, ariel;
      width:800px;
      background:white;
-     border-style:solid;
+     border: solid;
      margin-left: auto;
      margin-right:auto;
-     box-shadow: 6px 6px.08em gray;
-
 }
-
-
-#text{
-    padding:12px;
-}
-#cat{
-    padding-left: 100px;
-    padding-right: 100px;
-       
-}
-
-h1{
-    font-size: 30pt;
-    color:black;
-    text-indent: 60px;
-    margin:0px;
-    padding-bottom: 6px;
-    padding-top: 16px;
- }
-
- 
- h3{
-     padding-left:170px;
-     line-height:-20px;
-     margin:0px;
-     padding-top: 6px;
-     padding-bottom: 24px;
- }
-
- #top{
-     border-style:solid;
-     border-color:black;
-     padding:auto;
-     
+header {     
      background:orange;
      background:linear-gradient( 45deg,white,orange,orange,black);
+     height:100px;
+     border-bottom: solid;
+     padding-top: 1em;
  }
- 
+
+
+.top img{
+     float:left;
+     padding-left: 20px;
+ }
+
+ header.top h1{
+     font-size: 30px;
+     padding-left: 200px;
+ }
+ header.top h3{
+     padding-left:200px;
+     line-height: 2px;
+ }
+ nav{
+             height:24px;
+             background:black;
+             padding-top: .02em;
+             padding-bottom: 1em;
+ }
+ nav ul{
+
+     list-style-type: none;
+ }
+ nav ul li{
+     float:left;
+
+ }
+ nav a{
+     text-align: center;
+     display:block;
+     width:160px;
+     text-decoration: none;
+     color:white;
+ }
+
+ nav a:hover{
+     background-color:grey;
+ }
+
+ .current{
+     color:orange
+ }
+
+aside{
+    float:left;
+   width:20%;
+   padding-bottom: 400px;
+   
+}
+ aside ul{
+     list-style-type: none;
+     padding:12px;
+ }
+aside li{
+    border:solid;
+    margin:4px;
+}
+ aside a{
+     display:block;
+     color:black;
+     padding:3px;
+     color:black;
+     background:orange;
+     text-decoration: none;
+     
+     
+ }
+
+aside ul li a:hover{color:green;}   
+
+
 #bigLetter::first-letter{
     font-size: 46pt;
 }
-#pump{
-    float : left;
-    padding-top: 20px;
-    padding-left:16px;
-}
-a{
-   color:orange;
-}
-a:hover{
-    color:green;
-}
-li{
-    line-height: 30px;
-}
+
+
+
 footer{
     font-size:16px;
     text-align:center;
-    padding: 12px;
-    background: orange;
-    border-top: black;
-    border-style: solid;
+    width:800px;
+    padding-bottom: 6px;
+    padding-top:6px;
     background:orange;
     background:linear-gradient( 45deg,black,orange,orange,white);
-
+    border-top: solid;
 }
