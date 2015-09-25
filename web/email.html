@@ -20,7 +20,7 @@
                   <li><a href="index.html" >Home</a></li>
                   <li><a href="slides/products/productList.html">Product List</a></li>
                   <li><a href="personal.asp">Personal</a></li>
-                  <li><a href="email.html" >Join Email</a></li>
+                  <li><a href="email.html" class="current">Join Email</a></li>
                  </ul>
             </nav>
             
@@ -47,8 +47,8 @@
             <form action = "subscribe.html">
                 <p><input name="Firstname" type="text" autofocus required ></p>
                 <p><input name="Lastname" type="text" required  ></p>
-                <p><input name="email" type="text" id="field" required ></p>
-                <p><input name="zip" type="text" id ="field2" pattern="[0-9]{5}" placeholder="Optional but appreciated: 99999 "  oninvalid="setCustomValidity('Please enter a valid 5 digit zip code ex: 12345')" ></p>
+                <p><input name="email" type="email" id="field" required ></p>
+                <p><input name="zip" type="text" id ="field2" pattern="^\d{5}$" placeholder="Optional but appreciated: 99999 "  oninvalid="setCustomValidity('Please enter a valid 5 digit zip code ex: 12345')" ></p>
                 <input name= "sub" type="submit" value="Subscribe" >
 
             </form> 

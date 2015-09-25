@@ -5,7 +5,7 @@ html{
 
 body{
      font-family: sans-serif, ariel;
-     width:800px;
+     width:95%;
      background:white;
      border: solid;
      margin-left: auto;
@@ -14,7 +14,7 @@ body{
 header {     
      background:orange;
      background:linear-gradient( 45deg,white,orange,orange,black);
-     height:100px;
+     height:100%;
      border-bottom: solid;
      padding-top: 1em;
  }
@@ -22,16 +22,16 @@ header {
 
 .top img{
      float:left;
-     padding-left: 20px;
+     padding-left: 2em;
  }
 
  header.top h1{
-     font-size: 30px;
-     padding-left: 200px;
+     font-size: 200%;
+     padding-left: 1.5em;
  }
  header.top h3{
-     padding-left:200px;
-     line-height: 2px;
+     padding-left:2em;
+     line-height: .2em;
  }
  nav{
              height:24px;

@@ -122,6 +122,12 @@ input[type = "text"]{
     width:40%;
     height: auto;
 }
+input[type = "email"]{
+    margin-left: 2%;
+    width:40%;
+    height: auto;
+}
+
 
 input[type="submit"]{
     background:orange;
