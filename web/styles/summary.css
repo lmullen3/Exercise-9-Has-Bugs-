@@ -1,0 +1,221 @@
+html{
+    background:url(../images/bats.gif);  
+    background-repeat:repeat; 
+}
+main{
+    height:400px;
+}
+body{
+     font-family: sans-serif, ariel;
+     width:800px;
+     background:white;
+     border: solid;
+     margin-left: auto;
+     margin-right:auto;
+}
+header {     
+     background:orange;
+     background:linear-gradient( 45deg,white,orange,orange,black);
+     height:100px;
+     border-bottom: solid;
+     padding-top: 1em;
+ }
+
+
+.top img{
+     float:left;
+     padding-left: 20px;
+ }
+
+ header.top h1{
+     font-size: 30px;
+     padding-left: 200px;
+ }
+ header.top h3{
+     padding-left:200px;
+     line-height: 2px;
+ }
+ nav{
+             height:24px;
+             background:black;
+             padding-top: .02em;
+             padding-bottom: 1em;
+ }
+ nav ul{
+
+     list-style-type: none;
+ }
+ nav ul li{
+     float:left;
+
+ }
+ nav a{
+     text-align: center;
+     display:block;
+     width:160px;
+     text-decoration: none;
+     color:white;
+ }
+
+ nav a:hover{
+     background-color:grey;
+ }
+
+  table{
+     float:left;
+     width:500px;
+     height:350px;
+     padding-top:8px;
+ }
+ table caption{
+     padding-top:20px;
+     font-weight: bold;
+ }
+ th {
+     text-align:left;
+     width:26px;
+ }
+ th.price{
+     text-align: right;
+ }
+
+ 
+
+ table td.price{
+     width:12px;
+     text-align:right;
+ }
+ 
+ table td.category{
+     margin:0px;
+ }
+ table td.desc{
+     width:12px;
+
+ }
+ table .desc a {
+     color:black;
+     text-align: center;
+   }
+   
+   table td:nth-child(3){
+       background-color:#F5DEB3;
+   }
+   table th:nth-child(3){
+       background-color:#F5DEB3;
+   }
+    .current{
+     color:orange
+ }
+
+  table td.category{
+
+ }
+ table td.price{
+ }
+#leftBar{
+   float:left;
+   width:20%;
+   padding-bottom: 200px;
+   
+}
+ #leftBar ul{
+     list-style-type: none;
+     padding:12px;
+ }
+ #leftBar li{
+    border:solid;
+    margin:4px;
+}
+ #leftBar a{
+     display:block;
+     color:black;
+     padding:3px;
+     color:black;
+     background:orange;
+     text-decoration: none;
+ }
+ 
+
+#rightBar{
+   float:right;
+   width:180px;
+   height:380px;
+   padding-bottom: 20px;
+   background: #F5DEB3;
+   margin:0px;
+}
+
+#rightBar p{
+    padding:.2em;
+}
+
+ #rightBar ul{
+     list-style-type: none;
+     
+ }
+ #rightBar li{
+     margin-left: auto;
+     margin-right:auto;
+     height:100px;
+ }
+ #rightBar ul li img{
+     height:60px;
+     padding-right: 9em;
+ }
+ #rightBar ul li a{
+     color:black;
+     text-decoration: none;
+     text-align: center;
+     font-size: 12px;
+
+ }
+ #rightBar a:hover{
+     color:green;
+ }
+ 
+section {
+    float:left;
+    width:400px;
+}
+section img{
+    float:left;
+}
+section h2 a {
+    font-size: 20px;
+    color:black;
+    text-decoration: none;
+}
+
+section #desc{
+    float:left;
+    width:160px;
+    height:300px;
+    margin-left: 6px;
+}
+section #desc #bold{
+  font-weight: bold;
+  width: 40px;
+  float:left;
+}
+section #desc #price{
+  padding-left:6px;
+  width: 40px;
+  float:left;
+}
+
+
+
+
+
+
+footer{
+    font-size:16px;
+    text-align:center;
+    width:800px;
+    padding-bottom: 6px;
+    padding-top:6px;
+    background:orange;
+    background:linear-gradient( 45deg,black,orange,orange,white);
+    border-top: solid;
+}

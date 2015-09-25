@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="en">
+      
+<head>
+    <link rel='stylesheet' href="styles/email.css">
+    <link rel="normalStylesheet" href="styles/normalize.css">
+    <meta charset="utf-8" />
+    <title>Halloween Store</title>
+</head>
+<body>   
+            <header class="top">
+                <a href="index.html"><img src='images/pumpkin.gif' alt='pumpkin'></a>
+                <h1>The Halloween Store</h1>
+                <h3>For the little Goblin in all of us!</h3>
+            </header>
+            
+             <nav>
+                 <ul>
+                  <li><a href="index.html" >Home</a></li>
+                  <li><a href="slides/products/productList.html">Product List</a></li>
+                  <li><a href="personal.asp">Personal</a></li>
+                  <li><a href="email.html" >Join Email</a></li>
+                 </ul>
+            </nav>
+            
+            
+            <aside>
+                <ul>
+                    <li><a href="https://github.com/">Props</a></li>
+                    <li><a href="https://github.com/">Costumes</a></li>
+                    <li><a href="https://github.com/">Special Effects</a></li>
+                    <li><a href="https://github.com/">Masks</a></li>
+                </ul>
+            </aside>     
+            
+            <main>
+            <article>
+      
+                <h2>Please enter the following information.</h2>
+                <section id = "labels">
+                    <div>First Name:</div>
+                    <div>Last Name:</div>
+                    <div>Email:</div>
+                    <div>Zip Code:</div>
+                </section>
+            <form action = "subscribe.html">
+                <p><input name="Firstname" type="text" autofocus required ></p>
+                <p><input name="Lastname" type="text" required  ></p>
+                <p><input name="email" type="text" id="field" required ></p>
+                <p><input name="zip" type="text" id ="field2" pattern="[0-9]{5}" placeholder="Optional but appreciated: 99999 "  oninvalid="setCustomValidity('Please enter a valid 5 digit zip code ex: 12345')" ></p>
+                <input name= "sub" type="submit" value="Subscribe" >
+
+            </form> 
+               
+            </article> 
+        </main>
+          <footer> &copy; 2016 Ben Murach</footer>    
+</body>    
